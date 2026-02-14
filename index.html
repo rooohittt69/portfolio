@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="name"><h1>Rohit Sharma</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><i class="fa fa-instagram" style="font-size:20px;"></i></li>
+                <li><i class="fa fa-github" style="font-size:24px"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+<p class="name1"><h1> AM I IRON MAN? </h1> </p>
+<br><br><div class="bosss">
+<p class="intro">
+Hi, I’m Rohit Sharma — engineer by profession 👨‍💻, genius by habit 🧠, and recently retired superhero 🦾. I’ve fixed enough bugs to save the world twice 🌍, survived impossible deadlines ⏳, and carried more group projects than I can count 😮‍💨. But honestly, I’m tired of being Iron Man all the time. The suit is in maintenance mode 🔧, J.A.R.V.I.S. is basically just ChatGPT 🤖 and caffeine ☕, and now it’s time for an upgrade — from saving the world to actually enjoying it like a tech billionaire playboy 😎✨. Mission status: Chill mode activated 🚀🔥.</p>
+        <img id="pfp" src="/project/assests/Gemini_Generated_Image_lpuhsulpuhsulpuh.png" width="500px" alt="">
+       
+        <audio src="/project/assests/fahhhhh.mp3" id="hoversound" preload="auto"></audio>
+    </div>
+    </main>
+
+<footer>
+    <h1 style="text-align: center;">My Team</h1>
+    <div class="team">
+        <img src="/project/assests/cj.png" alt="" width="250px" height="300px">
+        <img src="/project/assests/ls.png" alt="" width="300px">
+        <img src="/project/assests/pm.png" alt="" width="200px">
+    </div>
+</footer>
+    <script>
+        const image=document.getElementById("pfp");
+        const audio=document.getElementById("hoversound");
+
+        image.addEventListener("mouseenter",() =>{
+            audio.currenTime=0;
+            audio.play();
+        });
+        image.addEventListener("mouseleave", () => {
+            audio.pause();
+            audio.currenTime=0;
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.bosss{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.intro{
+    color: white;
+    
+}
+body{
+     background: linear-gradient(45deg,black,gray);
+}
+
+
+.name{
+  font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    letter-spacing: 8px;
+}
+
+
+header{
+    background: gray;
+    color: white;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    font-size: large;
+    background: linear-gradient(45deg,black,gray);
+}
+
+nav ul{
+     font-family: "Bitcount Grid Double", system-ui;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    margin-right: 40px;
+   
+}
+nav a{
+    text-decoration: none;
+color: white;
+font-size: large;
+}
+
+h1{
+    color: white;
+}
+nav a:hover{
+    color:coral;
+    transition: all ease-in-out 0.2;
+}
+nav li:hover{
+    color:coral;
+    transition: all ease-in-out 0.2;
+}
+.name:hover{
+     color:coral;
+    transition: all ease-in-out 0.2;
+}
+
+#pfp:hover{
+    scale: 1.5;
+    transition: all ease-in-out 0.7s;
+    /* box-shadow: 0 20px 40px rgb(172, 70, 70),0 0 25px black; */
+    
+}
+
+h1:hover{
+    color:coral;
+    transition: all ease-in-out 0.2;
+}
+
+main{
+    color: white;
+    margin-left: 60px;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+font-family: 'Times New Roman', Times, serif;
+font-size: large;
+}
+
+.team{
+    display: flex;
+    justify-content: space-evenly;
+}
